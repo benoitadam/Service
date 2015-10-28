@@ -75,7 +75,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DotAdam.Service\SimpleService.csproj">
+    <ProjectReference Include="..\SimpleService\SimpleService.csproj">
       <Project>{bc93d843-4258-4e4d-872c-6326cff94805}</Project>
       <Name>SimpleService</Name>
     </ProjectReference>

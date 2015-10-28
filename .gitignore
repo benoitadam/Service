@@ -14,3 +14,9 @@
 /DotAdam.Service.Tests/obj
 /DotAdam.Service.Tests/bin
 /packages
+/SimpleService/bin/Debug
+/SimpleService/obj
+/SimpleService/packages
+*.nupkg
+/SimpleService.Tests/bin/Debug
+/SimpleService.Tests/obj
