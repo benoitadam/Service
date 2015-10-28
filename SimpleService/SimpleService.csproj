@@ -66,14 +66,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\README.md">
+      <Link>README.md</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="SimpleService.nuspec" />
     <None Include="NuGet.exe" />
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="README.md" />
-    <Content Include="SIMPLE_SERVICE.md">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
