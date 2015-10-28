@@ -9,3 +9,8 @@
 /DotAdam.Service/TestPackage/obj
 /DotAdam.Service/TestPackage/bin
 /DotAdam.Service/packages
+/DotAdam.Service/obj
+/DotAdam.Service/bin/Debug
+/DotAdam.Service.Tests/obj
+/DotAdam.Service.Tests/bin
+/packages
