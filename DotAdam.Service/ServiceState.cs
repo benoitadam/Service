@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DotAdam.Service
+namespace SimpleService
 {
     [Flags]
     public enum ServiceState

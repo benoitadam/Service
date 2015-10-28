@@ -1,4 +1,5 @@
-﻿using DotAdam.Service;
+﻿using SimpleService;
+using SimpleService.Tests.Config;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 
-namespace DotAdam.Service.Tests
+namespace SimpleService.Tests
 {
     class Program : IRunnable
     {
@@ -20,8 +21,8 @@ namespace DotAdam.Service.Tests
 
         public void Start() {
             _log.Info("Start");
-            _log.Debug("Number : ", Config.Default.Number);
-            _log.Debug("String : ", Config.Default.Test.Number);
+            _log.Debug("Number : ", ConfigRoot.Default.Number);
+            _log.Debug("String : ", ConfigRoot.Default.Test.Number);
         }
 
         public void Stop()

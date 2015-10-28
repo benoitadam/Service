@@ -1,20 +1,11 @@
-﻿using DotAdam.Service.Config;
-using Newtonsoft.Json;
-using SimpleService.Config;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DotAdam.Service.Tests
+﻿
+namespace SimpleService.Tests.Config
 {
-    public class Config
+    public class ConfigRoot
     {
-        private static ConfigWatcher<Config> _watcher = ConfigWatcherFactory.GetWatcher<Config>("Config/settings.config");
+        private static ConfigWatcher<ConfigRoot> _watcher = ConfigWatcherFactory.GetWatcher<ConfigRoot>("Config/config.json");
 
-        public static Config Default { get { return _watcher.Config; } }
+        public static ConfigRoot Default { get { return _watcher.Config; } }
 
         private int _number;
         private TestConfig _test;
@@ -32,7 +23,7 @@ namespace DotAdam.Service.Tests
 
         public TestConfig[] Tests { get; set; }
 
-        public Config()
+        public ConfigRoot()
         {
             Number = 5;
             Test = new TestConfig()

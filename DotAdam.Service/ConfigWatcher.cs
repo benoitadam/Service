@@ -1,16 +1,8 @@
-﻿using DotAdam.Service;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json;
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SimpleService.Config
+namespace SimpleService
 {
     /// <summary>
     /// This class get json value and update this automatically when the file change.

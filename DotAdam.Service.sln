@@ -3,14 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotAdam.Service", "DotAdam.Service\DotAdam.Service.csproj", "{BC93D843-4258-4E4D-872C-6326CFF94805}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleService", "DotAdam.Service\SimpleService.csproj", "{BC93D843-4258-4E4D-872C-6326CFF94805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotAdam.Service.Tests", "DotAdam.Service.Tests\DotAdam.Service.Tests.csproj", "{E84710C3-C093-435D-80D1-6015C423EB89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleService.Tests", "DotAdam.Service.Tests\SimpleService.Tests.csproj", "{E84710C3-C093-435D-80D1-6015C423EB89}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CDF329DE-D4B2-4D25-8AF8-19F95E98E29C}"
 	ProjectSection(SolutionItems) = preProject
 		contributors.txt = contributors.txt
 		LICENSE = LICENSE
+		nuget_cmd.txt = nuget_cmd.txt
 		README.md = README.md
 	EndProjectSection
 EndProject

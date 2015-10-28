@@ -1,17 +1,13 @@
 ﻿using System;
 using System.Linq;
 using System.Collections;
-using System.ComponentModel;
 using System.Configuration.Install;
 using System.Reflection;
 using System.ServiceProcess;
 using System.Threading;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json;
-using System.IO;
 using System.Security.Permissions;
 
-namespace DotAdam.Service
+namespace SimpleService
 {
     /// <summary>
     /// Classe for create and simple WebService

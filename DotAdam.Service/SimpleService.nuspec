@@ -15,15 +15,8 @@
     <copyright>Copyright Benoit ADAM 2015</copyright>
     <tags>console windows service daemon dotadam</tags>
     <dependencies>
-      <dependency id="Microsoft.CSharp" version="4.0" />
-      <dependency id="System" version="4.0" />
       <dependency id="System.Configuration.Install" version="4.0" />
-      <dependency id="System.Core" version="4.0" />
-      <dependency id="System.Data" version="4.0" />
-      <dependency id="System.Data.DataSetExtensions" version="4.0" />
       <dependency id="System.ServiceProcess" version="4.0" />
-      <dependency id="System.Xml" version="4.0" />
-      <dependency id="System.Xml.Linq" version="4.0" />
     </dependencies>
   </metadata>
 </package>

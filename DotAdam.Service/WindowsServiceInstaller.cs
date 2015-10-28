@@ -1,13 +1,8 @@
-﻿using System;
-using System.Linq;
-using System.Collections;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Configuration.Install;
-using System.Reflection;
 using System.ServiceProcess;
-using System.Threading;
 
-namespace DotAdam.Service
+namespace SimpleService
 {
     [RunInstaller(true)]
     public class WindowsServiceInstaller : Installer

@@ -7,7 +7,7 @@ using System.Reflection;
 using System.ServiceProcess;
 using System.Threading;
 
-namespace DotAdam.Service
+namespace SimpleService
 {
     /// <summary>
     /// Interface for create windows service

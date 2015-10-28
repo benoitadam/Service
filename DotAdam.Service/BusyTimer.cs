@@ -1,8 +1,7 @@
-﻿using SimpleService.Config;
-using System;
+﻿using System;
 using System.Threading;
 
-namespace DotAdam.Service
+namespace SimpleService
 {
     /// <summary>
     /// Timer with one call to update
