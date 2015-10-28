@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 
-namespace SimpleServiceTest
+namespace DotAdam.Service.Tests
 {
     class Program : IRunnable
     {

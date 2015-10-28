@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleServiceTest
+namespace DotAdam.Service.Tests
 {
     public class Config
     {
