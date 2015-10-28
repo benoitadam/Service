@@ -1,0 +1,6 @@
+$(ProjectDir)NuGet.exe pack $(ProjectPath) -Prop Configuration=Release  -NonInteractive
+$(ProjectDir)NuGet.exe push .\NuGet.exe push .\DotAdam.Service.x.x.x.x.nupkg
+
+.\NuGet.exe spec
+.\NuGet.exe pack .\DotAdam.Service.csproj -Prop Configuration=Release
+.\NuGet.exe push .\DotAdam.Service.x.x.x.x.nupkg

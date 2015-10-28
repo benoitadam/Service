@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DotAdam.Service/obj
+/DotAdam.Service/bin
+/DotAdam.Service.Tests/obj
+/DotAdam.Service.Tests/bin
+/TestPackage/obj
+/TestPackage/bin
+/packages
+/DotAdam.Service/DotAdam.Service/obj/Debug

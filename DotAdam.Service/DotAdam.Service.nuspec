@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/dotadam/Service</projectUrl>
+    <iconUrl>https://cdnjs.cloudflare.com/ajax/libs/fatcow-icons/20130425/FatCow_Icons32x32/jar_open.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>first.</releaseNotes>
+    <copyright>Copyright Benoit ADAM 2015</copyright>
+    <tags>console windows service daemon dotadam</tags>
+    <dependencies>
+      <dependency id="Microsoft.CSharp" version="4.0" />
+      <dependency id="System" version="4.0" />
+      <dependency id="System.Configuration.Install" version="4.0" />
+      <dependency id="System.Core" version="4.0" />
+      <dependency id="System.Data" version="4.0" />
+      <dependency id="System.Data.DataSetExtensions" version="4.0" />
+      <dependency id="System.ServiceProcess" version="4.0" />
+      <dependency id="System.Xml" version="4.0" />
+      <dependency id="System.Xml.Linq" version="4.0" />
+    </dependencies>
+  </metadata>
+</package>
