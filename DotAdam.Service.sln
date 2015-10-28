@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPackage", "TestPackage\TestPackage.csproj", "{1CEDE2E4-DB15-46D7-BC25-83D21B81E87F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotAdam.Service", "DotAdam.Service\DotAdam.Service.csproj", "{BC93D843-4258-4E4D-872C-6326CFF94805}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotAdam.Service.Tests", "DotAdam.Service.Tests\DotAdam.Service.Tests.csproj", "{E84710C3-C093-435D-80D1-6015C423EB89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CDF329DE-D4B2-4D25-8AF8-19F95E98E29C}"
+	ProjectSection(SolutionItems) = preProject
+		contributors.txt = contributors.txt
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +20,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1CEDE2E4-DB15-46D7-BC25-83D21B81E87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1CEDE2E4-DB15-46D7-BC25-83D21B81E87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1CEDE2E4-DB15-46D7-BC25-83D21B81E87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1CEDE2E4-DB15-46D7-BC25-83D21B81E87F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BC93D843-4258-4E4D-872C-6326CFF94805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BC93D843-4258-4E4D-872C-6326CFF94805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC93D843-4258-4E4D-872C-6326CFF94805}.Release|Any CPU.ActiveCfg = Release|Any CPU
