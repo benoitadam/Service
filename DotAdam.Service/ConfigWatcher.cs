@@ -35,8 +35,14 @@ namespace SimpleService
                 
             try
             {
+                var dir = Path.GetDirectoryName(_path);
+                if (!Directory.Exists(_path))
+                {
+                    Directory.CreateDirectory(_path);
+                }
+
                 _watcher = new FileSystemWatcher();
-                _watcher.Path = Path.GetDirectoryName(_path);
+                _watcher.Path = dir;
                 _watcher.NotifyFilter = NotifyFilters.LastWrite;
                 _watcher.Changed += new FileSystemEventHandler(OnChanged);
                 _watcher.Filter = Path.GetFileName(_path);

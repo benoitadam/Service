@@ -14,8 +14,6 @@ namespace SimpleService
     /// </summary>
     public class WindowsService : ServiceBase
     {
-        const string CONFIG_PATH = "./Config/settings.config";
-
         static readonly ServiceLogger _log = ServiceLogger.GetLogger(typeof(WindowsService));
         private Thread _thread;
         private readonly EventWaitHandle _eventStop = new EventWaitHandle(false, EventResetMode.AutoReset);
